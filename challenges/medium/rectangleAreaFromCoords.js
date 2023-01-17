@@ -6,9 +6,15 @@
  * @return {number} the area
 */
 
-function rectangleAreaFromCoords (points) {
-  [A,B,C,D] = points
-  return (A.x - B.x)*(C.y - D.y)
-}
+function rectangleAreaFromCoords(points) {
+  let height = []
+  let width = []
+  for (let i in points) {
+   
+      height.push(points[i].x)
+      width.push(points[i].y)
+    
+  } return (Math.max(...height) - Math.min(...height))*(Math.max(...width) - Math.min(...width))
+  }
 
 module.exports = rectangleAreaFromCoords

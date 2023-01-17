@@ -7,7 +7,7 @@ const trapeziumArea = require('../challenges/easy/trapeziumArea')
 
 describe('Easy', () => {
 
-  test('area of 2 by 5 rectanlgle should be 10', () => {
+  test('area of 2 by 5 rectangle should be 10', () => {
     expect(rectangleArea(2,5)).toBe(10)
   })
 

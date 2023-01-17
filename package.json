@@ -11,6 +11,6 @@
   "author": "multiverse",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^28.1.1"
+    "jest": "^28.1.3"
   }
 }
